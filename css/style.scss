@@ -1,0 +1,25 @@
+#container {
+	border: 2px solid blue;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+	#visor {
+		border: 1px solid silver;
+		border-radius: 15px;
+		height: 25px;
+		padding: 0 10px 0 10px;
+		display: flex;
+		align-items: center;
+	}
+	#number-buttons {
+		margin-bottom: 10px;
+	}
+	#operations-buttons {
+		#btn-equal {
+			margin-left: 146px;
+		}
+		#btn-clear {
+			margin-left: 146px;
+		}
+	}
+}
